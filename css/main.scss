@@ -119,6 +119,11 @@ h3 {
     color: $accent-color;
 }
 
+.description {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
 body > {
   header, section, footer {
     max-width: 750px;
