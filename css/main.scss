@@ -410,23 +410,22 @@ iframe {
 
 .gif {
   display: block;
-  // margin: 20px auto;
   width: 200px;
   height: auto;
 }
 
 .image-container {
-  display: flex; /* Enable flexbox layout */
-  flex-wrap: wrap; /* Allow wrapping to multiple lines if necessary */
-  gap: 10px; /* Space between images */
-  justify-content: space-evenly; /* Distribute images evenly across the line */
-  align-items: center; /* Align images vertically in the center */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .image-container img {
-  max-width: 30%; /* Each image takes up a maximum of 30% of the container width */
-  height: auto; /* Maintain aspect ratio */
-  flex: 1 1 auto; /* Images grow or shrink to fit while keeping their aspect ratio */
+  max-width: 30%;
+  height: auto;
+  flex: 1 1 auto;
 }
 
 @font-face {
