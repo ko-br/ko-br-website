@@ -508,7 +508,10 @@ header {
 @media (max-width: 660px) {
   .top-banner {
     height: 130px; /* Taller on mobile */
-    padding-bottom: 130px;
+  }
+
+  header {
+    padding-top: 130px; /* Same as banner height */
   }
 }
 
