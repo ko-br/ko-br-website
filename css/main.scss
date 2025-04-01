@@ -436,6 +436,113 @@ iframe {
   }
 }
 
+.manifesto {
+  h1 {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+    margin-bottom: 0em;
+    margin-top: 1em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+
+  .description {
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 0.5em;
+  }
+
+  .split-container {
+    width: 100%;
+    overflow: hidden; /* Clearfix for floats */
+    margin-bottom: 20px;
+  }
+
+  /* Base image container styles */
+  .image-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px; /* Space between image and text */
+    margin: 0em;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1em;
+  }
+
+  /* Left positioning classes */
+  .left {
+    float: left;
+    padding-right: 20px;
+    padding-left: 0;
+  }
+
+  /* Right positioning classes */
+  .right {
+    float: right;
+    padding-left: 20px;
+    padding-right: 0;
+  }
+
+  /* Width classes */
+  .one-third {
+    width: 33.333%;
+  }
+
+  .one-half {
+    width: 50%;
+  }
+
+  .forty-percent {
+    width: 40%;
+  }
+
+  /* Clear the float after the container */
+  .split-container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    /* The layout remains the same on mobile with these settings */
+  }
+
+  /* For very small screens, stack vertically (optional) */
+  @media (max-width: 480px) {
+    .image-container {
+      float: none;
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+      // margin-bottom: 15px;
+    }
+  }
+
+  .half-width-image {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+  }
+
+  .half-width-image.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .gif {
   display: block;
   width: 200px;
