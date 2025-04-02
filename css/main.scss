@@ -209,15 +209,13 @@ h3 {
 .description {
   margin-top: 1rem;
   font-size: 1.8rem;
-  line-height: 3rem;
-  text-align: center;
+  line-height: 140%;
+  text-align: left;
 }
 
 @media (max-width: 660px) {
   .description {
     font-size: 1.4rem;
-    line-height: 3rem;
-    text-align: center;
   }
 }
 
@@ -440,6 +438,7 @@ iframe {
   h1 {
     font-size: 1.5em;
     margin-top: 1em;
+    text-align: left;
   }
 
   h2 {
@@ -455,8 +454,13 @@ iframe {
 
   .description {
     font-size: 1.2em;
-    text-align: left;
     margin-top: 0.5em;
+  }
+
+  @media (max-width: 660px) {
+    .description {
+      font-size: 1.1em;
+    }
   }
 
   .split-container {
@@ -514,13 +518,8 @@ iframe {
     clear: both;
   }
 
-  /* Media query for smaller screens */
-  @media (max-width: 768px) {
-    /* The layout remains the same on mobile with these settings */
-  }
-
   /* For very small screens, stack vertically (optional) */
-  @media (max-width: 480px) {
+  @media (max-width: 660px) {
     .image-container {
       float: none;
       width: 100%;
@@ -540,6 +539,12 @@ iframe {
   .half-width-image.center {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @media (max-width: 660px) {
+    .half-width-image {
+      width: 100%;
+    }
   }
 }
 
