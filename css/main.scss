@@ -466,7 +466,6 @@ iframe {
   .split-container {
     width: 100%;
     overflow: hidden; /* Clearfix for floats */
-    margin-bottom: 20px;
   }
 
   /* Base image container styles */
@@ -607,23 +606,23 @@ a.linkedin-icon:hover i {
   z-index: 1000;
   padding: 10px 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  height: 50px; /* Set a fixed height for the banner */
+  height: 60px; /* Set a fixed height for the banner */
   box-sizing: border-box;
 }
 
 /* Add this to create space for the banner */
 header {
-  padding-top: 0px; /* Same as banner height */
+  padding-top: 10px; /* Same as banner height */
 }
 
 /* Mobile adjustments */
 @media (max-width: 660px) {
   .top-banner {
-    height: 130px; /* Taller on mobile */
+    height: 60px; /* Taller on mobile */
   }
 
   header {
-    padding-top: 130px; /* Same as banner height */
+    padding-top: 60px; /* Same as banner height */
   }
 }
 
