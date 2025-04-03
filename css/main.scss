@@ -227,6 +227,21 @@ hr {
   width: 100%;
 }
 
+.nav-links {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  // gap: 1em;
+  width: 100%;
+}
+
+.nav-links a {
+  flex: 1 1 0; /* This makes all links have equal width */
+  text-align: center; /* Centers the text within each link */
+  min-width: 7em; /* Prevents links from becoming too narrow before wrapping */
+  /* Add other styling as needed */
+}
+
 .cta-button {
   background-color: $accent-color;
   color: $background-color;
