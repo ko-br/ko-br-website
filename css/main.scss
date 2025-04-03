@@ -298,6 +298,41 @@ article {
   }
 }
 
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 1em auto 0em;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+thead {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background-color: rgba(154, 206, 193, 0.1);
+}
+
 ul {
   margin-left: 1.1em;
 }
