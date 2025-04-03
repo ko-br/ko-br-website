@@ -532,6 +532,13 @@ iframe {
     }
   }
 
+  .full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+  }
+
   .half-width-image {
     width: 50%;
     height: auto;
