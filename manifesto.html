@@ -4,9 +4,7 @@ layout: null
 <html>
 
 <head>
-  <title>
-    The Collaborative Rebellion: A ko-br Manifesto
-  </title>
+  <title>The Collaborative Rebellion: A ko-br Manifesto</title>
   {% include common_head.html %}
   <meta name="description"
     content="The industrial revolution reshaped humanity, forcing us to adapt to machines' limitations. Today, we stand at the threshold of a new era where machines can finally adapt to us. This is our vision for that future." />
@@ -15,7 +13,7 @@ layout: null
     content="The industrial revolution reshaped humanity, forcing us to adapt to machines' limitations. Today, we stand at the threshold of a new era where machines can finally adapt to us. This is our vision for that future.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:url" content="{{ page.url | remove: '.html' | absolute_url }}">
   <meta name="twitter:title" content="The Collaborative Rebellion: A ko-br Manifesto">
   <meta name="twitter:description"
     content="The industrial revolution reshaped humanity, forcing us to adapt to machines' limitations. Today, we stand at the threshold of a new era where machines can finally adapt to us. This is our vision for that future.">
